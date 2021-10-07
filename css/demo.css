@@ -305,10 +305,6 @@ a:focus {
 
 /* Different layouts */
 
-/* Layout-1 */
-.content--layout-1 img{
-	z-index: 99;
-}
 
 /* layout-2 */
 .content--layout-2 {
@@ -548,7 +544,7 @@ a:focus {
 	text-indent: -0.05em;
 	margin: 0;
 	position: relative;
-	margin: 0.75em 0 0;
+	margin: .25em 0 .75em 0;
 }
 
 .pater__desc {
@@ -574,7 +570,7 @@ a:focus {
 	}
 	.pater__title {
 		display: block;
-		margin: 0.75em 0;
+		margin: 0 0 .75em 0;
 	}
 	.pater__desc {
 		display: block;
