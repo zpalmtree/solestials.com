@@ -719,3 +719,25 @@ a:focus {
 
 @media screen and (max-width: 28em) {
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-background-img {
+    padding: 0px !important;
+}
+
+.showcase-img {
+    width: 256px;
+    height: 256px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+}
